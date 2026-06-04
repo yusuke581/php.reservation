@@ -2,7 +2,7 @@
 // DB接続設定
 $dsn = 'mysql:dbname=tb280034db;host=localhost;charset=utf8mb4';
 $user = 'tb-280034';
-$password = 'K4DdxgeQBi';
+$password = 'my passwordを入れる';
 
 try {
     $pdo = new PDO($dsn, $user, $password, [
